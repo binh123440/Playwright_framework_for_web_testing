@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.snyk
+.idea/
+.vscode/
+.DS_Store
+screenshots/
+reports/
+.playwright/
+.env
