@@ -1,8 +1,22 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'mcr.microsoft.com/playwright/python:v1.42.0-jammy'
+            args '--shm-size=2g --cap-add=SYS_ADMIN'
+        }
+    }
     
     environment {
-        PYTHON_VERSION = '3.9'
+        ALLURE_DIR = 'reports/allure-results'
+        PYTHONUNBUFFERED = '1'
+        HEADLESS = 'true'
+        KEEP_LEGACY_SCREENSHOTS = '0'
+    }
+    
+    options {
+        timestamps()
+        timeout(time: 30, unit: 'MINUTES')
+        buildDiscarder(logRotator(numToKeepStr: '20'))
     }
     
     stages {
@@ -12,25 +26,25 @@ pipeline {
             }
         }
         
-        stage('Setup') {
+        stage('Setup Environment') {
             steps {
                 sh '''
-                    python3 -m venv venv
-                    . venv/bin/activate
-                    pip install --upgrade pip
+                    python -m pip install --upgrade pip setuptools wheel
                     pip install -r requirements.txt
-                    playwright install
-                    playwright install-deps
+                    playwright install --with-deps
                 '''
             }
         }
         
-        stage('Run Tests') {
+        stage('Run E2E Tests') {
             steps {
-                sh '''
-                    . venv/bin/activate
-                    pytest tests/e2e/ --alluredir=allure-results
-                '''
+                sh 'pytest tests/e2e -q --maxfail=1 --alluredir=${ALLURE_DIR}'
+            }
+        }
+        
+        stage('Archive Artifacts') {
+            steps {
+                archiveArtifacts artifacts: 'reports/screenshots/**,reports/allure-results/**', allowEmptyArchive: true
             }
         }
     }
@@ -42,15 +56,15 @@ pipeline {
                 jdk: '',
                 properties: [],
                 reportBuildPolicy: 'ALWAYS',
-                results: [[path: 'allure-results']]
+                results: [[path: "${ALLURE_DIR}"]]
             ])
-            cleanWs()
+            sh 'ls -la reports || true'
         }
         success {
             echo 'Tests passed successfully!'
         }
         failure {
-            echo 'Tests failed!'
+            echo 'Tests failed! Check console output and artifacts.'
         }
     }
 }
