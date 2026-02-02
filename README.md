@@ -1,6 +1,6 @@
 # Playwright Python scaffold
 
-This scaffold was generated to mirror the structure of the existing Appium (Java) framework and provide a starting point for Playwright tests in Python.
+This scaffold was generated to mirror the structure of the existing Playwright (Python) framework and provide a starting point for Playwright tests in Python.
 
 Quick start
 
