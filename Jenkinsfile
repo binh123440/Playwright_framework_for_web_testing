@@ -2,7 +2,8 @@ pipeline {
     agent {
         docker {
             image 'mcr.microsoft.com/playwright/python:v1.42.0-jammy'
-            args '--shm-size=2g --cap-add=SYS_ADMIN'
+            args '--shm-size=2g --cap-add=SYS_ADMIN -u root'
+            reuseNode true
         }
     }
     
@@ -31,7 +32,7 @@ pipeline {
                 sh '''
                     python -m pip install --upgrade pip setuptools wheel
                     pip install -r requirements.txt
-                    playwright install --with-deps
+                    python -m playwright install --with-deps
                 '''
             }
         }
@@ -51,13 +52,6 @@ pipeline {
     
     post {
         always {
-            allure([
-                includeProperties: false,
-                jdk: '',
-                properties: [],
-                reportBuildPolicy: 'ALWAYS',
-                results: [[path: "${ALLURE_DIR}"]]
-            ])
             sh 'ls -la reports || true'
         }
         success {

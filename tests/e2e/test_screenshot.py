@@ -1,10 +1,10 @@
 from pages.login_page import LoginPage
 import pytest
+from helpers.config_loader import get
 
 def test_flai_and_capture123(page):
-    # go to a blank page and intentionally fail to trigger screenshot capture
-    page.goto("about:blank")
+    url = get("BASE_URL", "https://playwright.dev/")
+    page.goto(url)
     login = LoginPage(page)
-    with pytest.raises(Exception):
-        page.click("#this_element_does_not_exist")
-    pytest.fail("intentional failure to test screenshot capture")
+    assert "Playwright" in page.title()
+    print("Title of the page is:")
