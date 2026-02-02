@@ -51,13 +51,6 @@ pipeline {
     
     post {
         always {
-            allure([
-                includeProperties: false,
-                jdk: '',
-                properties: [],
-                reportBuildPolicy: 'ALWAYS',
-                results: [[path: "${ALLURE_DIR}"]]
-            ])
             sh 'ls -la reports || true'
         }
         success {
