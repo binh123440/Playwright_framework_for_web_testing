@@ -31,7 +31,7 @@ pipeline {
                 sh '''
                     python -m pip install --upgrade pip setuptools wheel
                     pip install -r requirements.txt
-                    playwright install --with-deps
+                    python -m playwright install --with-deps
                 '''
             }
         }
