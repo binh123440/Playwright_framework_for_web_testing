@@ -29,8 +29,10 @@ def pw():
 
 @pytest.fixture(scope="session")
 def browser(pw):
-    headless = get("HEADLESS", True)
-    b = pw.chromium.launch(headless=headless)
+    headless_str = get("HEADLESS", "true")
+    # Convert string to boolean
+    headless = headless_str not in ("false", "False", "0", "")
+    b = pw.chromium.launch(headless=headless)   
     yield b
     b.close()
 
