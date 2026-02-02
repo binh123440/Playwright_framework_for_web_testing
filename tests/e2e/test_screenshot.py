@@ -7,3 +7,4 @@ def test_flai_and_capture123(page):
     page.goto(url)
     login = LoginPage(page)
     assert "Playwright" in page.title()
+    print("Title of the page is:")
