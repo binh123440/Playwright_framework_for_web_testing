@@ -3,6 +3,7 @@ pipeline {
         docker {
             image 'mcr.microsoft.com/playwright/python:v1.42.0-jammy'
             args '--shm-size=2g --cap-add=SYS_ADMIN -u root'
+            reuseNode true
         }
     }
     
