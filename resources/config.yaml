@@ -1,2 +1,2 @@
 BASE_URL: "https://playwright.dev/"
-HEADLESS: true
+HEADLESS: false
