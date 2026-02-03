@@ -28,11 +28,19 @@ def pw():
 
 
 @pytest.fixture(scope="session")
-def browser(pw):
-    headless_str = get("HEADLESS", "false")
-    # Convert string to boolean
-    headless = headless_str not in ("false", "False", "0", "")
-    b = pw.chromium.launch(headless=headless)   
+def browser(pw, request):
+    """Launch browser with headless controlled by --headed flag or config."""
+    # CLI flag takes precedence
+    if request.config.getoption("--headed"):
+        headless = False
+    else:
+        headless_str = get("HEADLESS", "false")
+        headless = headless_str not in ("false", "False", "0", "")
+    
+    b = pw.chromium.launch(
+        headless=headless,
+        slow_mo=100  # Làm chậm 100ms mỗi action để dễ theo dõi
+    )
     yield b
     b.close()
 
@@ -154,3 +162,4 @@ def pytest_runtest_makereport(item, call):
             allure.attach.file(str(html_path), name="page-source", attachment_type=allure.attachment_type.HTML)
     except Exception:
         pass
+
