@@ -27,6 +27,18 @@ pipeline {
             }
         }
         
+        stage('Clean Cache') {
+            steps {
+                sh '''
+                    echo "Cleaning up cache and temporary files..."
+                    rm -rf .pytest_cache || true
+                    find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+                    find . -type f -name "*.pyc" -delete 2>/dev/null || true
+                    echo "✓ Cache cleanup complete!"
+                '''
+            }
+        }
+        
         stage('Setup Environment') {
             steps {
                 sh '''
@@ -39,7 +51,7 @@ pipeline {
         
         stage('Run E2E Tests') {
             steps {
-                sh 'pytest tests/e2e -q --maxfail=1 --alluredir=${ALLURE_DIR}'
+                sh 'pytest tests/e2e -v --maxfail=1 --alluredir=${ALLURE_DIR} -n auto --reruns 2 --reruns-delay 1'
             }
         }
         
