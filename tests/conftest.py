@@ -37,9 +37,12 @@ def browser(pw, request):
         headless_str = get("HEADLESS", "false")
         headless = headless_str not in ("false", "False", "0", "")
     
+    slow_mo = int(get("SLOW_MO", "100"))
+    
     b = pw.chromium.launch(
         headless=headless,
-        slow_mo=100  # Làm chậm 100ms mỗi action để dễ theo dõi
+        slow_mo=slow_mo,
+        args=["--disable-blink-features=AutomationControlled"]
     )
     yield b
     b.close()
