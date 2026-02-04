@@ -462,3 +462,22 @@
 2026-02-03 13:11:09 - pages.base_page - INFO - Entering password
 2026-02-03 13:11:09 - pages.base_page - INFO - Clicking login button
 2026-02-03 13:11:15 - pages.base_page - INFO - Login successful: True
+2026-02-03 15:19:11 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-03 15:19:18 - pages.base_page - INFO - Performing login with username: 
+2026-02-03 15:19:18 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-03 15:19:19 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-03 15:19:19 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-03 15:19:21 - pages.base_page - INFO - Entering username
+2026-02-03 15:19:22 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-03 15:19:22 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-03 15:19:22 - pages.base_page - INFO - Entering password
+2026-02-03 15:19:22 - pages.base_page - INFO - Clicking login button
+2026-02-03 15:19:22 - pages.base_page - INFO - Login successful: False
+2026-02-03 15:19:23 - pages.base_page - INFO - Entering username
+2026-02-03 15:19:23 - pages.base_page - INFO - Entering password
+2026-02-03 15:19:23 - pages.base_page - INFO - Clicking login button
+2026-02-03 15:19:24 - pages.base_page - INFO - Login successful: False
+2026-02-03 15:19:25 - pages.base_page - INFO - Entering username
+2026-02-03 15:19:25 - pages.base_page - INFO - Entering password
+2026-02-03 15:19:26 - pages.base_page - INFO - Clicking login button
+2026-02-03 15:19:27 - pages.base_page - INFO - Login successful: False
