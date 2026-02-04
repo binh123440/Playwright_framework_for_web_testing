@@ -1,2 +1,15 @@
 BASE_URL: "https://demo.thingsboard.io/login"
 HEADLESS: false
+SLOW_MO: 100
+
+# Timeout Settings (milliseconds)
+DEFAULT_TIMEOUT: 5000
+NAVIGATION_TIMEOUT: 30000
+
+# Valid Demo Account
+DEMO_USERNAME: "hi.newagenewera@gmail.com"
+DEMO_PASSWORD: "Tuilasieunhan@"
+
+# Invalid Credentials (for testing login failure)
+INVALID_USERNAME: "invalid@test.com"
+INVALID_PASSWORD: "wrongpassword"
