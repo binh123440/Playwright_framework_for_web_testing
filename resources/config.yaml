@@ -1,2 +1,2 @@
-BASE_URL: "https://playwright.dev/"
+BASE_URL: "https://demo.thingsboard.io/login"
 HEADLESS: false

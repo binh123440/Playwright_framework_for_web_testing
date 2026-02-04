@@ -2,16 +2,20 @@ from .base_page import BasePage
 
 
 class LoginPage(BasePage):
-    # selectors mapped from the Appium project's LoginPage
-    PHONE = "input#PhoneNumberInput, [resource-id='PhoneNumberInput']"
-    PASSWORD = "input#PasswordInput, [resource-id='PasswordInput']"
-    LOGIN_BTN = "text='Log in', [content-desc='Log in']"
-
-    def login(self, phone: str, password: str):
-        self.page.fill(self.PHONE, phone)
-        self.page.wait_for_timeout(2000)
-        self.page.fill(self.PASSWORD, password)
-        self.page.wait_for_timeout(2000)
-
-    def click_login(self):
-        self.page.click(self.LOGIN_BTN)
+    def fill_username(self, username: str):
+        """Fill username using accessible role locator"""
+        self.page.get_by_role("textbox", name="Username (email)").fill(username)
+    
+    def fill_password(self, password: str):
+        """Fill password field"""
+        self.page.get_by_role("textbox", name="Password").fill(password)
+    
+    def click_login_button(self):
+        """Click login button using role"""
+        self.page.get_by_role("button", name="Sign in").click()
+    
+    def login(self, username: str, password: str):
+        """Complete login flow"""
+        self.fill_username(username)
+        self.fill_password(password)
+        self.click_login_button()

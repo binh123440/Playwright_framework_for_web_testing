@@ -1,0 +1,2047 @@
+versions pytest-9.0.2, python-3.13.9.final.0
+invocation_dir=D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright
+cwd=D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright
+args=('--debug',)
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001A7D61F4C20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001A7D6707230>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <allure_pytest.listener.AllureListener object at 0x000001A7D6707A10>
+          plugin_name: allure_listener
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+          plugin_name: 1820272586640
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'allure_pytest.plugin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\allure_pytest\\plugin.py'>
+          plugin_name: allure_pytest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_asyncio.plugin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest_asyncio\\plugin.py'>
+          plugin_name: asyncio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\tests\\conftest.py'>
+          plugin_name: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001A7D61F4C20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001A7D6707230>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <allure_pytest.listener.AllureListener object at 0x000001A7D6707A10>
+          plugin_name: allure_listener
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001A7D6707CB0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+    matched marked file '_pytest.terminalprogress' (from '_pytest.terminalprogress') [assertion]
+    find_module called for: _pytest.terminalprogress [assertion]
+    found cached rewritten pyc for D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.venv\Lib\site-packages\_pytest\terminalprogress.py [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+        pytest_plugin_registered [hook]
+            plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001A7D679C590>
+            plugin_name: terminalprogress-plugin
+            manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+        finish pytest_plugin_registered --> [] [hook]
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminalprogress' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001A7D679C6E0>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+          plugin_name: 1820272586640
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'allure_pytest.plugin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\allure_pytest\\plugin.py'>
+          plugin_name: allure_pytest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_asyncio.plugin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest_asyncio\\plugin.py'>
+          plugin_name: asyncio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\tests\\conftest.py'>
+          plugin_name: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001A7D61F4C20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001A7D6707230>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <allure_pytest.listener.AllureListener object at 0x000001A7D6707A10>
+          plugin_name: allure_listener
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001A7D6707CB0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001A7D679C590>
+          plugin_name: terminalprogress-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminalprogress' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001A7D679C6E0>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x000001A7D679D010>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A7D0B36F90>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['tests'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('D:/Hoc_tap/FPT/Assignment_Layer3(1)/playwright/tests'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
+            pytest_collect_directory [hook]
+                path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir playwright> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir playwright>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir playwright>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.git
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.git
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.github
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.github
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.gitignore
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.gitignore
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.gitignore
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.gitignore
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.playwright-mcp
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.playwright-mcp
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.pytest_cache
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.pytest_cache
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.venv
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.venv
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.vscode
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\.vscode
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\Jenkinsfile
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\Jenkinsfile
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\Jenkinsfile
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\Jenkinsfile
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\README.md
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\README.md
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\README.md
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\README.md
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\async_example.py
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\async_example.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\async_example.py
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\async_example.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\downloads
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\downloads
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\downloads
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir downloads> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\helpers
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\helpers
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\helpers
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir helpers> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pages
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pages
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pages
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir pages> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\playwright.config.py
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\playwright.config.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\playwright.config.py
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\playwright.config.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytest.ini
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytest.ini
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytest.ini
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytest.ini
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytestdebug.log
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytestdebug.log
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytestdebug.log
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\pytestdebug.log
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\reports
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\reports
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\reports
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir reports> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\requirements.txt
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\requirements.txt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir playwright>
+                  file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\requirements.txt
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\requirements.txt
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\resources
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\resources
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\resources
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir resources> [hook]
+              pytest_collect_directory [hook]
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir tests> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+                  collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\utils
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\utils
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\utils
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir utils> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=7 outcome='passed'> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\__pycache__
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\conftest.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\conftest.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\conftest.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\conftest.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e
+            parent: <Dir tests>
+        finish pytest_collect_directory --> <Dir e2e> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\unit
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\unit
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\unit
+            parent: <Dir tests>
+        finish pytest_collect_directory --> <Dir unit> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=2 outcome='passed'> [hook]
+    genitems <Dir e2e> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir e2e>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir e2e>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\__pycache__
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_async_working.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_async_working.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir e2e>
+            file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_async_working.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_async_working.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir e2e>
+              module_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_async_working.py
+              path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_async_working.py
+          finish pytest_pycollect_makemodule --> <Module test_async_working.py> [hook]
+        finish pytest_collect_file --> [<Module test_async_working.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_login.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_login.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir e2e>
+            file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_login.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_login.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir e2e>
+              module_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_login.py
+              path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_login.py
+          finish pytest_pycollect_makemodule --> <Module test_login.py> [hook]
+        finish pytest_collect_file --> [<Module test_login.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_mcp_gen.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_mcp_gen.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir e2e>
+            file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_mcp_gen.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_mcp_gen.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir e2e>
+              module_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_mcp_gen.py
+              path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_mcp_gen.py
+          finish pytest_pycollect_makemodule --> <Module test_mcp_gen.py> [hook]
+        finish pytest_collect_file --> [<Module test_mcp_gen.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_screenshot.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_screenshot.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir e2e>
+            file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_screenshot.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_screenshot.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir e2e>
+              module_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_screenshot.py
+              path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_screenshot.py
+          finish pytest_pycollect_makemodule --> <Module test_screenshot.py> [hook]
+        finish pytest_collect_file --> [<Module test_screenshot.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            collection_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_sync_vs_async.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_sync_vs_async.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir e2e>
+            file_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_sync_vs_async.py
+            path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_sync_vs_async.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir e2e>
+              module_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_sync_vs_async.py
+              path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_sync_vs_async.py
+          finish pytest_pycollect_makemodule --> <Module test_sync_vs_async.py> [hook]
+        finish pytest_collect_file --> [<Module test_sync_vs_async.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/e2e' lenresult=5 outcome='passed'> [hook]
+    genitems <Module test_async_working.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_async_working.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_async_working.py>
+      find_module called for: test_async_working [assertion]
+      matched test file 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\tests\\e2e\\test_async_working.py' [assertion]
+      found cached rewritten pyc for D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_async_working.py [assertion]
+      early skip of rewriting module: playwright.async_api [assertion]
+      early skip of rewriting module: playwright.async_api._generated [assertion]
+      early skip of rewriting module: playwright._impl._async_base [assertion]
+      early skip of rewriting module: playwright.async_api._context_manager [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: pytest
+            obj: <module 'pytest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: asyncio
+            obj: <module 'asyncio' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: time
+            obj: <module 'time' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: async_playwright
+            obj: <function async_playwright at 0x000001A7D6783E20>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: async_expect
+            obj: <playwright.async_api.Expect object at 0x000001A7D679E900>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: test_async_with_pytest_asyncio
+            obj: <function test_async_with_pytest_asyncio at 0x000001A7D6783B00>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D6809160>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Coroutine test_async_with_pytest_asyncio>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: test_async_concurrent_in_pytest
+            obj: <function test_async_concurrent_in_pytest at 0x000001A7D6783D80>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D6803890>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Coroutine test_async_concurrent_in_pytest>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: test_explanation
+            obj: <function test_explanation at 0x000001A7D68731A0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D68039D0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_explanation>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_async_working.py>
+            name: test_comparison_pytest_approaches
+            obj: <function test_comparison_pytest_approaches at 0x000001A7D6873920>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D676CE90>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_comparison_pytest_approaches>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/e2e/test_async_working.py' lenresult=4 outcome='passed'> [hook]
+    genitems <Coroutine test_async_with_pytest_asyncio> [collection]
+      pytest_itemcollected [hook]
+          item: <Coroutine test_async_with_pytest_asyncio>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Coroutine test_async_concurrent_in_pytest> [collection]
+      pytest_itemcollected [hook]
+          item: <Coroutine test_async_concurrent_in_pytest>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_explanation> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_explanation>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_comparison_pytest_approaches> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_comparison_pytest_approaches>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/e2e/test_async_working.py' lenresult=4 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_login.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_login.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_login.py>
+      find_module called for: test_login [assertion]
+      matched test file 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\tests\\e2e\\test_login.py' [assertion]
+      found cached rewritten pyc for D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_login.py [assertion]
+      early skip of rewriting module: pages [assertion]
+      early skip of rewriting module: pages.login_page [assertion]
+      early skip of rewriting module: pages.base_page [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x000001A7D613CEC0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login.py>
+            name: LoginPage
+            obj: <class 'pages.login_page.LoginPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login.py>
+            name: get
+            obj: <function get at 0x000001A7D6714680>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login.py>
+            name: test_open_home_and_title
+            obj: <function test_open_home_and_title at 0x000001A7D6873D80>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D676F5C0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_open_home_and_title>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/e2e/test_login.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_open_home_and_title> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_open_home_and_title>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/e2e/test_login.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_mcp_gen.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_mcp_gen.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_mcp_gen.py>
+      find_module called for: test_mcp_gen [assertion]
+      matched test file 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\tests\\e2e\\test_mcp_gen.py' [assertion]
+      found cached rewritten pyc for D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_mcp_gen.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_mcp_gen.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_mcp_gen.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_mcp_gen.py>
+            name: time
+            obj: <module 'time' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_mcp_gen.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x000001A7D613CEC0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_mcp_gen.py>
+            name: LoginPage
+            obj: <class 'pages.login_page.LoginPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_mcp_gen.py>
+            name: get
+            obj: <function get at 0x000001A7D6714680>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_mcp_gen.py>
+            name: test_export_swimming_pool_dashboard
+            obj: <function test_export_swimming_pool_dashboard at 0x000001A7D6880680>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D68228D0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_export_swimming_pool_dashboard>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/e2e/test_mcp_gen.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_export_swimming_pool_dashboard> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_export_swimming_pool_dashboard>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/e2e/test_mcp_gen.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_screenshot.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_screenshot.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_screenshot.py>
+      find_module called for: test_screenshot [assertion]
+      matched test file 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\tests\\e2e\\test_screenshot.py' [assertion]
+      found cached rewritten pyc for D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_screenshot.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_screenshot.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_screenshot.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_screenshot.py>
+            name: LoginPage
+            obj: <class 'pages.login_page.LoginPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_screenshot.py>
+            name: pytest
+            obj: <module 'pytest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_screenshot.py>
+            name: get
+            obj: <function get at 0x000001A7D6714680>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_screenshot.py>
+            name: test_flai_and_capture123
+            obj: <function test_flai_and_capture123 at 0x000001A7D68807C0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D672A250>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_flai_and_capture123>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/e2e/test_screenshot.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_flai_and_capture123> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_flai_and_capture123>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/e2e/test_screenshot.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_sync_vs_async.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_sync_vs_async.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_sync_vs_async.py>
+      find_module called for: test_sync_vs_async [assertion]
+      matched test file 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\tests\\e2e\\test_sync_vs_async.py' [assertion]
+      _read_pyc(D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright\tests\e2e\test_sync_vs_async.py): out of date [assertion]
+      rewriting WindowsPath('D:/Hoc_tap/FPT/Assignment_Layer3(1)/playwright/tests/e2e/test_sync_vs_async.py') [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: time
+            obj: <module 'time' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: asyncio
+            obj: <module 'asyncio' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x000001A7D613CEC0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: sync_playwright
+            obj: <function sync_playwright at 0x000001A7D0E26D40>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: async_playwright
+            obj: <function async_playwright at 0x000001A7D6783E20>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: async_expect
+            obj: <playwright.async_api.Expect object at 0x000001A7D679E900>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: LoginPage
+            obj: <class 'pages.login_page.LoginPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: get
+            obj: <function get at 0x000001A7D6714680>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: pytest
+            obj: <module 'pytest' from 'D:\\Hoc_tap\\FPT\\Assignment_Layer3(1)\\playwright\\.venv\\Lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: test_1_sync_api_example
+            obj: <function test_1_sync_api_example at 0x000001A7D6880CC0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D6884160>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_1_sync_api_example>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: test_2_async_api_example
+            obj: <function test_2_async_api_example at 0x000001A7D68809A0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D66F3550>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_2_async_api_example>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: test_3_async_concurrent_operations
+            obj: <function test_3_async_concurrent_operations at 0x000001A7D6880D60>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D66F3850>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_3_async_concurrent_operations>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_sync_vs_async.py>
+            name: test_4_comparison_summary
+            obj: <function test_4_comparison_summary at 0x000001A7D6880E00>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A7D6743020>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_4_comparison_summary>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/e2e/test_sync_vs_async.py' lenresult=4 outcome='passed'> [hook]
+    genitems <Function test_1_sync_api_example> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_1_sync_api_example>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_2_async_api_example> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_2_async_api_example>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_3_async_concurrent_operations> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_3_async_concurrent_operations>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_4_comparison_summary> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_4_comparison_summary>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/e2e/test_sync_vs_async.py' lenresult=4 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/e2e' lenresult=5 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir unit> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir unit>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir unit>
+      finish pytest_make_collect_report --> <CollectReport 'tests/unit' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/unit' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          items: [<Coroutine test_async_with_pytest_asyncio>, <Coroutine test_async_concurrent_in_pytest>, <Function test_explanation>, <Function test_comparison_pytest_approaches>, <Function test_open_home_and_title>, <Function test_export_swimming_pool_dashboard>, <Function test_flai_and_capture123>, <Function test_1_sync_api_example>, <Function test_2_async_api_example>, <Function test_3_async_concurrent_operations>, <Function test_4_comparison_summary>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+            items: [<Coroutine test_async_with_pytest_asyncio>, <Coroutine test_async_concurrent_in_pytest>, <Function test_explanation>, <Function test_comparison_pytest_approaches>, <Function test_open_home_and_title>, <Function test_export_swimming_pool_dashboard>, <Function test_flai_and_capture123>, <Function test_1_sync_api_example>, <Function test_2_async_api_example>, <Function test_3_async_concurrent_operations>, <Function test_4_comparison_summary>]
+            start_path: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright
+            startdir: D:\Hoc_tap\FPT\Assignment_Layer3(1)\playwright
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=11>
+      pytest_runtest_protocol [hook]
+          item: <Coroutine test_async_with_pytest_asyncio>
+          nextitem: <Coroutine test_async_concurrent_in_pytest>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_async_working.py::test_async_with_pytest_asyncio
+            location: ('tests\\e2e\\test_async_working.py', 17, 'test_async_with_pytest_asyncio')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Coroutine test_async_with_pytest_asyncio>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='event_loop_policy' scope='session' baseid=''>
+              request: <SubRequest 'event_loop_policy' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_setup --> <asyncio.windows_events.WindowsProactorEventLoopPolicy object at 0x000001A7D680BA10> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_setup -->  [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x000001A7D3B03B60> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_function_scoped_runner' scope='function' baseid=''>
+              request: <SubRequest '_function_scoped_runner' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_setup --> <asyncio.runners.Runner object at 0x000001A7D683BB60> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Coroutine test_async_with_pytest_asyncio>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Coroutine test_async_with_pytest_asyncio>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Coroutine test_async_with_pytest_asyncio>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Coroutine test_async_with_pytest_asyncio>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Coroutine test_async_with_pytest_asyncio>
+            nextitem: <Coroutine test_async_concurrent_in_pytest>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_function_scoped_runner' scope='function' baseid=''>
+              request: <SubRequest '_function_scoped_runner' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Coroutine test_async_with_pytest_asyncio>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_async_with_pytest_asyncio' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_async_working.py::test_async_with_pytest_asyncio
+            location: ('tests\\e2e\\test_async_working.py', 17, 'test_async_with_pytest_asyncio')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Coroutine test_async_concurrent_in_pytest>
+          nextitem: <Function test_explanation>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_async_working.py::test_async_concurrent_in_pytest
+            location: ('tests\\e2e\\test_async_working.py', 49, 'test_async_concurrent_in_pytest')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Coroutine test_async_concurrent_in_pytest>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_function_scoped_runner' scope='function' baseid=''>
+              request: <SubRequest '_function_scoped_runner' for <Coroutine test_async_concurrent_in_pytest>>
+          finish pytest_fixture_setup --> <asyncio.runners.Runner object at 0x000001A7D68A16D0> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Coroutine test_async_concurrent_in_pytest>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Coroutine test_async_concurrent_in_pytest>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Coroutine test_async_concurrent_in_pytest>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Coroutine test_async_concurrent_in_pytest>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Coroutine test_async_concurrent_in_pytest>
+            nextitem: <Function test_explanation>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_function_scoped_runner' scope='function' baseid=''>
+              request: <SubRequest '_function_scoped_runner' for <Coroutine test_async_concurrent_in_pytest>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Coroutine test_async_concurrent_in_pytest>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_async_concurrent_in_pytest' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_async_working.py::test_async_concurrent_in_pytest
+            location: ('tests\\e2e\\test_async_working.py', 49, 'test_async_concurrent_in_pytest')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_explanation>
+          nextitem: <Function test_comparison_pytest_approaches>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_async_working.py::test_explanation
+            location: ('tests\\e2e\\test_async_working.py', 84, 'test_explanation')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_explanation>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_explanation>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_explanation>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_explanation>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_explanation>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_explanation>
+            nextitem: <Function test_comparison_pytest_approaches>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_explanation>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_explanation' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_async_working.py::test_explanation
+            location: ('tests\\e2e\\test_async_working.py', 84, 'test_explanation')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_comparison_pytest_approaches>
+          nextitem: <Function test_open_home_and_title>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_async_working.py::test_comparison_pytest_approaches
+            location: ('tests\\e2e\\test_async_working.py', 121, 'test_comparison_pytest_approaches')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_comparison_pytest_approaches>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_comparison_pytest_approaches>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_comparison_pytest_approaches>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_comparison_pytest_approaches>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_comparison_pytest_approaches>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_comparison_pytest_approaches>
+            nextitem: <Function test_open_home_and_title>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_comparison_pytest_approaches>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_async_working.py::test_comparison_pytest_approaches' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_async_working.py::test_comparison_pytest_approaches
+            location: ('tests\\e2e\\test_async_working.py', 121, 'test_comparison_pytest_approaches')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_open_home_and_title>
+          nextitem: <Function test_export_swimming_pool_dashboard>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_login.py::test_open_home_and_title
+            location: ('tests\\e2e\\test_login.py', 5, 'test_open_home_and_title')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_open_home_and_title>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='pw' scope='session' baseid='tests'>
+              request: <SubRequest 'pw' for <Function test_open_home_and_title>>
+          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x000001A7D6CCC510> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_open_home_and_title>>
+          finish pytest_fixture_setup --> <Browser type=<BrowserType name=chromium executable_path=C:\Users\LeHaBinh\AppData\Local\ms-playwright\chromium-1200\chrome-win64\chrome.exe> version=143.0.7499.4> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_open_home_and_title>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_open_home_and_title>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_open_home_and_title>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_open_home_and_title>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_open_home_and_title>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_open_home_and_title>
+            nextitem: <Function test_export_swimming_pool_dashboard>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_open_home_and_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_open_home_and_title>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_login.py::test_open_home_and_title' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_login.py::test_open_home_and_title
+            location: ('tests\\e2e\\test_login.py', 5, 'test_open_home_and_title')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_export_swimming_pool_dashboard>
+          nextitem: <Function test_flai_and_capture123>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard
+            location: ('tests\\e2e\\test_mcp_gen.py', 6, 'test_export_swimming_pool_dashboard')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_export_swimming_pool_dashboard>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_export_swimming_pool_dashboard>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_export_swimming_pool_dashboard>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_export_swimming_pool_dashboard>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_export_swimming_pool_dashboard>
+        pytest_runtest_makereport [hook]
+            item: <Function test_export_swimming_pool_dashboard>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo TimeoutError('Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for nav...on to "https://demo.thingsboard.io/home" until \'load\'\n============================================================') tblen=42>>
+        early skip of rewriting module: concurrent.futures.thread [assertion]
+        early skip of rewriting module: queue [assertion]
+        early skip of rewriting module: _queue [assertion]
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_export_swimming_pool_dashboard>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo TimeoutError('Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for nav...on to "https://demo.thingsboard.io/home" until \'load\'\n============================================================') tblen=42>>
+            report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_export_swimming_pool_dashboard>
+            nextitem: <Function test_flai_and_capture123>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_export_swimming_pool_dashboard>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_export_swimming_pool_dashboard>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard
+            location: ('tests\\e2e\\test_mcp_gen.py', 6, 'test_export_swimming_pool_dashboard')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_flai_and_capture123>
+          nextitem: <Function test_1_sync_api_example>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_screenshot.py::test_flai_and_capture123
+            location: ('tests\\e2e\\test_screenshot.py', 4, 'test_flai_and_capture123')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_flai_and_capture123>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_flai_and_capture123>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_flai_and_capture123>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_flai_and_capture123>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_flai_and_capture123>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_flai_and_capture123>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_flai_and_capture123>
+            nextitem: <Function test_1_sync_api_example>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_flai_and_capture123>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_flai_and_capture123>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_screenshot.py::test_flai_and_capture123' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_screenshot.py::test_flai_and_capture123
+            location: ('tests\\e2e\\test_screenshot.py', 4, 'test_flai_and_capture123')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_1_sync_api_example>
+          nextitem: <Function test_2_async_api_example>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_1_sync_api_example
+            location: ('tests\\e2e\\test_sync_vs_async.py', 18, 'test_1_sync_api_example')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_1_sync_api_example>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_1_sync_api_example>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_1_sync_api_example>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_1_sync_api_example>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_1_sync_api_example>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_1_sync_api_example>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_1_sync_api_example>
+            nextitem: <Function test_2_async_api_example>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_1_sync_api_example>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_1_sync_api_example>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_1_sync_api_example' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_1_sync_api_example
+            location: ('tests\\e2e\\test_sync_vs_async.py', 18, 'test_1_sync_api_example')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_2_async_api_example>
+          nextitem: <Function test_3_async_concurrent_operations>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_2_async_api_example
+            location: ('tests\\e2e\\test_sync_vs_async.py', 34, 'test_2_async_api_example')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_2_async_api_example>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_2_async_api_example>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_2_async_api_example>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_2_async_api_example>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_2_async_api_example>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_2_async_api_example>
+            nextitem: <Function test_3_async_concurrent_operations>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_2_async_api_example>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_2_async_api_example' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_2_async_api_example
+            location: ('tests\\e2e\\test_sync_vs_async.py', 34, 'test_2_async_api_example')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_3_async_concurrent_operations>
+          nextitem: <Function test_4_comparison_summary>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations
+            location: ('tests\\e2e\\test_sync_vs_async.py', 62, 'test_3_async_concurrent_operations')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_3_async_concurrent_operations>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_3_async_concurrent_operations>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_3_async_concurrent_operations>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_3_async_concurrent_operations>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_3_async_concurrent_operations>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_3_async_concurrent_operations>
+            nextitem: <Function test_4_comparison_summary>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_3_async_concurrent_operations>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_3_async_concurrent_operations
+            location: ('tests\\e2e\\test_sync_vs_async.py', 62, 'test_3_async_concurrent_operations')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_4_comparison_summary>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_4_comparison_summary
+            location: ('tests\\e2e\\test_sync_vs_async.py', 80, 'test_4_comparison_summary')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_4_comparison_summary>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_4_comparison_summary>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_4_comparison_summary>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_4_comparison_summary>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_4_comparison_summary>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_4_comparison_summary>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_1_sync_api_example>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_flai_and_capture123>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_export_swimming_pool_dashboard>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid='tests'>
+              request: <SubRequest 'page' for <Function test_open_home_and_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_open_home_and_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_open_home_and_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='pw' scope='session' baseid='tests'>
+              request: <SubRequest 'pw' for <Function test_open_home_and_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_function_scoped_runner' scope='function' baseid=''>
+              request: <SubRequest '_function_scoped_runner' for <Coroutine test_async_concurrent_in_pytest>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_function_scoped_runner' scope='function' baseid=''>
+              request: <SubRequest '_function_scoped_runner' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='event_loop_policy' scope='session' baseid=''>
+              request: <SubRequest 'event_loop_policy' for <Coroutine test_async_with_pytest_asyncio>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_4_comparison_summary>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/e2e/test_sync_vs_async.py::test_4_comparison_summary' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/e2e/test_sync_vs_async.py::test_4_comparison_summary
+            location: ('tests\\e2e\\test_sync_vs_async.py', 80, 'test_4_comparison_summary')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=11>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001A7D6707CB0>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/e2e/test_mcp_gen.py::test_export_swimming_pool_dashboard' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x000001A7D3B03B60>
+    finish pytest_unconfigure --> [] [hook]

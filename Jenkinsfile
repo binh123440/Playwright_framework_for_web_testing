@@ -39,7 +39,7 @@ pipeline {
         
         stage('Run E2E Tests') {
             steps {
-                sh 'pytest tests/e2e -q --maxfail=1 --alluredir=${ALLURE_DIR}'
+                sh 'xvfb-run pytest tests/e2e -v --maxfail=1 --alluredir=${ALLURE_DIR} -n auto --reruns 2 --reruns-delay 1'
             }
         }
         
