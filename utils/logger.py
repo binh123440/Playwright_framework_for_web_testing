@@ -41,8 +41,11 @@ def _configure_logger():
     root_logger.addHandler(console_handler)
     root_logger.addHandler(file_handler)
 
-
 def get_logger(name: str = __name__) -> logging.Logger:
     """Get or create logger instance"""
     _configure_logger()
     return logging.getLogger(name)
+
+# def get_logger(name: str = __name__):
+#     logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
+#     return logging.getLogger(name)

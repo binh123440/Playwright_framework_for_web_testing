@@ -2,7 +2,6 @@ from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
-
 class BasePage:
     """Common page utilities to be extended by page objects."""
     

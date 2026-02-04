@@ -1,9 +1,4 @@
-# ThingsBoard Demo Application Configuration
-
-# Application URL
-BASE_URL: "https://demo.thingsboard.io/"
-
-# Browser Settings
+BASE_URL: "https://demo.thingsboard.io/login"
 HEADLESS: false
 SLOW_MO: 100
 

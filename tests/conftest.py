@@ -166,3 +166,15 @@ def pytest_runtest_makereport(item, call):
     except Exception:
         pass
 
+
+@pytest.fixture
+def page():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)   # headless=True nếu muốn chạy ẩn
+        context = browser.new_context()
+        page = context.new_page()
+
+        yield page   # đưa page cho test dùng
+
+        context.close()
+        browser.close()

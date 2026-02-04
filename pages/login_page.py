@@ -2,15 +2,31 @@ from .base_page import BasePage
 
 
 class LoginPage(BasePage):
-    """Page Object for ThingsBoard Login Page"""
     
-    # Selectors
+ # Selectors
     USERNAME_INPUT = "#username-input"
     PASSWORD_INPUT = "#password-input"
     LOGIN_BTN = "button[type='submit']"
     ERROR_MSG = "text=/Invalid|incorrect|failed|error/i"
     LOGIN_FORM = "form, [role='form']"
+    
+    USERNAME = "//input[@id='username-input']"
+    PASSWORD = "//input[@id='password-input']"
+    # LOGIN_BTN = "//button[@type='submit']"
+    LOGIN_BTN = "button[type='submit']"
+    ERROR_MSG = "text=/Invalid|incorrect|failed|error/i"
+    LOGIN_FORM = "form, [role='form']"
 
+    def login(self, username: str, password: str):
+        self.page.fill(self.USERNAME, username)
+        self.page.wait_for_timeout(2000)
+        self.page.fill(self.PASSWORD, password)
+        self.page.wait_for_timeout(2000)
+        # self.click_login()
+
+    def click_login(self):
+        self.page.click(self.LOGIN_BTN)
+        
     def enter_username(self, username: str, timeout: int = 5000) -> None:
         """Nhập username"""
         self.logger.info(f"Entering username")
@@ -41,7 +57,7 @@ class LoginPage(BasePage):
         is_success = "login" not in self.get_current_url().lower()
         self.logger.info(f"Login successful: {is_success}")
         return is_success
-
+    
     def is_login_form_visible(self, timeout: int = 5000) -> bool:
         """Kiểm tra form login có tồn tại"""
         return self.is_visible(self.LOGIN_FORM, timeout=timeout)

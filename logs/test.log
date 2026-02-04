@@ -1,3 +1,14 @@
+2026-02-04 00:40:15 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 00:41:04 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 00:43:23 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 00:57:12 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 00:57:26 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 00:59:08 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 00:59:22 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 00:59:49 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 01:00:00 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 01:00:13 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 01:00:19 - asyncio - DEBUG - Using proactor: IocpProactor
 2026-02-03 09:18:05 - asyncio - DEBUG - Using proactor: IocpProactor
 2026-02-03 09:18:18 - pages.base_page - INFO - Navigating to: https://demo.thingsboard.io/
 2026-02-03 09:20:16 - asyncio - DEBUG - Using proactor: IocpProactor
@@ -481,3 +492,212 @@
 2026-02-03 15:19:25 - pages.base_page - INFO - Entering password
 2026-02-03 15:19:26 - pages.base_page - INFO - Clicking login button
 2026-02-03 15:19:27 - pages.base_page - INFO - Login successful: False
+2026-02-04 08:55:43 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:55:43 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:55:43 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:55:43 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:55:43 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:55:43 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:55:56 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:55:56 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:55:57 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:55:57 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:55:58 - pages.base_page - INFO - Entering username
+2026-02-04 08:55:58 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:01 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:56:01 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:01 - pages.base_page - INFO - Performing login with username: 
+2026-02-04 08:56:01 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:01 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:02 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:02 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:02 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:03 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:56:03 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:03 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:06 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:06 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:07 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:08 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:56:08 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:08 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:56:08 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:08 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:09 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:10 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:56:10 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:11 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:13 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:56:13 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:14 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:14 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:14 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:14 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:18 - pages.base_page - INFO - Performing login with username: 
+2026-02-04 08:56:18 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:18 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:19 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:20 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:56:20 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:21 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:21 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:56:21 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:22 - test_dashboard - INFO - Dashboards listing verified
+2026-02-04 08:56:22 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:56:22 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:23 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:24 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:25 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:25 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:56:25 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:26 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:26 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:26 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:26 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:28 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:56:28 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:28 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:29 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:34 - pages.base_page - INFO - Performing login with username: 
+2026-02-04 08:56:34 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:35 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:56:35 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:35 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:36 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:38 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:56:39 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:56:39 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:56:39 - pages.base_page - INFO - Entering username
+2026-02-04 08:56:46 - test_dashboard - INFO - Dashboard created successfully: Auto Dashboard 20260204015645
+2026-02-04 08:58:00 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:00 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:00 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:00 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:00 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:00 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:13 - pages.base_page - INFO - Performing login with username: 
+2026-02-04 08:58:13 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:58:13 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:58:13 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:58:14 - pages.base_page - INFO - Entering username
+2026-02-04 08:58:15 - pages.base_page - INFO - Entering password
+2026-02-04 08:58:15 - pages.base_page - INFO - Entering username
+2026-02-04 08:58:15 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:15 - pages.base_page - INFO - Entering password
+2026-02-04 08:58:15 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:15 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:58:15 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:58:16 - pages.base_page - INFO - Login successful: False
+2026-02-04 08:58:16 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:58:16 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:58:16 - pages.base_page - INFO - Login successful: False
+2026-02-04 08:58:17 - pages.base_page - INFO - Entering username
+2026-02-04 08:58:17 - pages.base_page - INFO - Entering password
+2026-02-04 08:58:17 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:17 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 08:58:17 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:58:17 - pages.base_page - INFO - Entering username
+2026-02-04 08:58:17 - pages.base_page - INFO - Entering password
+2026-02-04 08:58:18 - pages.base_page - INFO - Entering username
+2026-02-04 08:58:18 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:18 - pages.base_page - INFO - Entering password
+2026-02-04 08:58:18 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:18 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:19 - pages.base_page - INFO - Login successful: False
+2026-02-04 08:58:19 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:19 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 08:58:19 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 08:58:19 - pages.base_page - INFO - Entering username
+2026-02-04 08:58:19 - pages.base_page - INFO - Entering password
+2026-02-04 08:58:19 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:19 - pages.base_page - INFO - Clicking login button
+2026-02-04 08:58:27 - pages.base_page - INFO - Login successful: True
+2026-02-04 08:58:27 - test_dashboard - INFO - Dashboards listing verified
+2026-02-04 08:58:27 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:30 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 08:58:43 - test_dashboard - INFO - Dashboard created successfully: Auto Dashboard 20260204015842
+2026-02-04 09:34:15 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:34:19 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 09:34:19 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:34:20 - pages.base_page - INFO - Entering username
+2026-02-04 09:34:20 - pages.base_page - INFO - Entering password
+2026-02-04 09:34:20 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:34:26 - pages.base_page - INFO - Login successful: True
+2026-02-04 09:43:07 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:43:13 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 09:43:13 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:43:14 - pages.base_page - INFO - Entering username
+2026-02-04 09:43:14 - pages.base_page - INFO - Entering password
+2026-02-04 09:43:14 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 09:43:14 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:43:14 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:43:14 - pages.base_page - INFO - Performing login with username: 
+2026-02-04 09:43:14 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:43:15 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:43:15 - pages.base_page - INFO - Entering username
+2026-02-04 09:43:15 - pages.base_page - INFO - Entering username
+2026-02-04 09:43:16 - pages.base_page - INFO - Entering password
+2026-02-04 09:43:16 - pages.base_page - INFO - Entering password
+2026-02-04 09:43:16 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:43:16 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:43:16 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:43:17 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:43:22 - test_dashboard - INFO - Dashboards listing verified
+2026-02-04 09:43:45 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:43:50 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 09:43:50 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:43:51 - pages.base_page - INFO - Entering username
+2026-02-04 09:43:51 - pages.base_page - INFO - Entering password
+2026-02-04 09:43:51 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:43:57 - pages.base_page - INFO - Login successful: True
+2026-02-04 09:44:06 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:44:06 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:44:06 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:44:13 - pages.base_page - INFO - Performing login with username: 
+2026-02-04 09:44:13 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:44:13 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 09:44:13 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:44:14 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 09:44:14 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:44:14 - pages.base_page - INFO - Entering username
+2026-02-04 09:44:14 - pages.base_page - INFO - Entering password
+2026-02-04 09:44:14 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:44:14 - pages.base_page - INFO - Entering username
+2026-02-04 09:44:14 - pages.base_page - INFO - Entering password
+2026-02-04 09:44:14 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:44:14 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:44:15 - pages.base_page - INFO - Entering username
+2026-02-04 09:44:15 - pages.base_page - INFO - Entering password
+2026-02-04 09:44:15 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:44:15 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:44:16 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:44:23 - test_dashboard - INFO - Dashboards listing verified
+2026-02-04 09:47:51 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:47:51 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:47:51 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:47:51 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-02-04 09:47:58 - pages.base_page - INFO - Performing login with username: 
+2026-02-04 09:47:58 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:47:59 - pages.base_page - INFO - Performing login with username: invalid@test.com
+2026-02-04 09:47:59 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:47:59 - pages.base_page - INFO - Entering username
+2026-02-04 09:47:59 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 09:47:59 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:47:59 - pages.base_page - INFO - Entering password
+2026-02-04 09:48:00 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:48:00 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:48:00 - pages.base_page - INFO - Entering username
+2026-02-04 09:48:00 - pages.base_page - INFO - Entering password
+2026-02-04 09:48:00 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:48:01 - pages.base_page - INFO - Entering username
+2026-02-04 09:48:01 - pages.base_page - INFO - Entering password
+2026-02-04 09:48:01 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:48:01 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:48:02 - pages.base_page - INFO - Performing login with username: hi.newagenewera@gmail.com
+2026-02-04 09:48:02 - pages.base_page - DEBUG - Waiting for selector: form, [role='form']
+2026-02-04 09:48:02 - pages.base_page - INFO - Login successful: False
+2026-02-04 09:48:03 - pages.base_page - INFO - Entering username
+2026-02-04 09:48:03 - pages.base_page - INFO - Entering password
+2026-02-04 09:48:03 - pages.base_page - INFO - Clicking login button
+2026-02-04 09:48:07 - test_dashboard - INFO - Dashboards listing verified
+2026-02-04 09:48:12 - pages.base_page - INFO - Login successful: True
